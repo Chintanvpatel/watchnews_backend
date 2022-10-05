@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsitems",
+  "info": {
+    "name": "newsitems",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "preview": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    },
+    "image_url": {
+      "type": "string"
+    },
+    "creator": {
+      "type": "string"
+    },
+    "pub_date": {
+      "type": "datetime"
+    },
+    "sponsored": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
